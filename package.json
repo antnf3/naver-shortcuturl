@@ -1,18 +1,21 @@
 {
-  "name": "@antnf3/shurtcuturl",
-  "version": "0.0.9",
+  "name": "@antnf3/shortcuturl",
+  "version": "0.0.1",
   "main": "lib/index.js",
   "files": [
     "lib/**/*"
   ],
   "types": "lib/index.d.ts",
-  "description": "shortCutUrl with naver open api",
-  "author": "antnf3@gmail.com",
-  "keyword": "shortCutUrl",
+  "description": "shortCutUrl with naver api",
+  "author": "antnf3 <antnf3@gmail.com>",
+  "keyword": [
+    "shortcuturl",
+    "naver api"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/antnf3/getshutcuturl-naverapi.git"
+    "url": "https://github.com/antnf3/naver-shortcuturl.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
