@@ -6,8 +6,8 @@ const naverapi = require("@antnf3/shurtcuturl");
 async function get() {
   const result = await naverapi.getShutCutUrl(
     "https://github.com/antnf3/getshutcuturl-naverapi",
-    "Dq_Sb85IEJay_eXkcEZO",
-    "LKfq3PsQHG"
+    "rg4tffretertreter", // 네이버 CLIENT_ID
+    "cvbsghdgdg" // 네이버 CLIENT_SECRET
   );
   console.log(result);
 }
@@ -19,8 +19,8 @@ import { getShutCutUrl } from "@antnf3/shurtcuturl";
 async function get() {
   const result = await getShutCutUrl(
     "https://github.com/antnf3/getshutcuturl-naverapi",
-    "Dq_Sb85IEJay_eXkcEZO",
-    "LKfq3PsQHG"
+    "rg4tffretertreter", // 네이버 CLIENT_ID
+    "cvbsghdgdg" // 네이버 CLIENT_SECRET
   );
   console.log(result);
 }

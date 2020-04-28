@@ -1,13 +1,11 @@
 {
   "compilerOptions": {
+    "target": "es5",
     "module": "commonjs",
-    "noImplicitAny": true,
-    "removeComments": true,
-    "esModuleInterop": true,
-    "sourceMap": true,
-    "target": "es6",
-    "outDir": "./dist"
+    "declaration": true,
+    "outDir": "./lib",
+    "strict": true
   },
-  "include": ["lib/**/*"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules"]
 }
