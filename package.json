@@ -1,15 +1,23 @@
 {
-  "name": "shurtcuturl",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "@antnf3/shurtcuturl",
+  "version": "0.0.7",
+  "main": "dist/index.js",
+  "description": "shortCutUrl with naver open api",
+  "author": "antnf3@gmail.com",
+  "keyword": "shortCutUrl",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antnf3/getshutcuturl-naverapi.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
-    "build": "parcel build src/index.ts --target node",
-    "start": "ts-node src/index.ts"
+    "build": "tsc"
   },
   "dependencies": {
-    "axios": "^0.19.2",
-    "dotenv": "^8.2.0"
+    "axios": "^0.19.2"
   },
   "devDependencies": {
     "@types/node": "^13.11.1",
